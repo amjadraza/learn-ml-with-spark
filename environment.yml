@@ -1,0 +1,27 @@
+name: learn_ml_spark
+channels:
+- r
+- conda-forge
+- defaults
+dependencies:
+  - python>=3.7
+  - numpy
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - pip==18.1
+  - wheel==0.32.1
+  - flake8==3.5.0
+  - coverage==4.5.1
+  - Sphinx==1.8.1
+  - twine==1.12.1
+  - jupyter
+  - pip:
+    - sphinx_rtd_theme
+    - loguru
+    - pytest==6.2.4
+    - uvloop==0.16.0
+    - sphinx-book-theme
+    - nbsphinx
