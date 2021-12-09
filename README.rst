@@ -45,10 +45,6 @@ Build the docker container
 
 ``docker  build -t ml_spark .``
 
-Run the docker container
-
-``docker run -d --name fp_app -p 80:80 fileprocessor``
-
 Run the docker container using docker-compose
 
 ``docker-compose up``
@@ -61,13 +57,15 @@ Use below command to build from `.docs/` location
 
 ``make html``
 
+The documents are being created using the notebooks.
+
 TODO
 ----
-* Streaming the text file
-* Using Spark Streaming to read/process/store the files
-* Load Balancer
-* Host Docs
-* Set up CI/CD
+* Complete the remaining sections
+* Writing Guide to run notebooks using Docker
+* Proof Reading.
+* Host Docs/tutorials
+* Collect the test Data
 
 
 
