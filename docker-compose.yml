@@ -11,6 +11,6 @@ services:
         CHOWN_HOME: 'yes'
         CHOWN_HOME_OPTS: '-R'
     volumes:
-      - ./notebooks/:/home/jovyan/notebooks/
+      - ./notebooks/:/home/raza/notebooks/
     ports:
       - 8888:8888
