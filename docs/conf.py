@@ -51,7 +51,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = 'Learn ML with Spark'
+project = 'Hands on Machine Learning with Spark'
 copyright = "2021, MA Raza"
 author = "MA Raza"
 

@@ -14,9 +14,9 @@ Learn ML with Spark
         :alt: Documentation Status
 
 
-
-
-A project to collect learning resources for Machine Learning with Spark
+A project to collect learning resources for Machine Learning with Spark. In this project, we collected the running
+Jupyter notebooks compatible to run on Google Colab Environment. All the notebooks are compiled to form a book for
+better usage.
 
 
 * Free software: Apache Software License 2.0
